@@ -7,7 +7,7 @@ while True:
     user_choice=  input("Enter your choice(R for rock, S for scissors, P for paper): ")
     possible_choices= [Rock_choice, Scissors_choice, Paper_choice]
     system_choice= random.choice(possible_choices)
-    print(f"\n You chose {user_choice}, computer chose {system_choice}.\n")
+    print(f"\n Player:{user_choice}, CPU:{system_choice}.\n")
     if user_choice==system_choice:
         print("it's a tie!")
     elif user_choice==Rock_choice:
